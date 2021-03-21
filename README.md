@@ -23,14 +23,14 @@ node app.js
 ```
 
 
-![image-20210321215240867](https://github.com/holychen555/inventory/tree/main/imgs/image-20210321215240867.png)
+![image-20210321215240867](https://github.com/holychen555/inventory/blob/main/imgs/image-20210321215240867.png)
 
-![image-20210321215603863](https://github.com/holychen555/inventory/tree/main/imgs/image-20210321215603863.png)
+![image-20210321215603863](https://github.com/holychen555/inventory/blob/main/imgs/image-20210321215603863.png)
 
-![image-20210321215633418](https://github.com/holychen555/inventory/tree/main/imgs/image-20210321215633418.png)
+![image-20210321215633418](https://github.com/holychen555/inventory/blob/main/imgs/image-20210321215633418.png)
 
-![image-20210321215708077](https://github.com/holychen555/inventory/tree/main/imgs/image-20210321215708077.png)
+![image-20210321215708077](https://github.com/holychen555/inventory/blob/main/imgs/image-20210321215708077.png)
 
-![image-20210321215733205](https://github.com/holychen555/inventory/tree/main/imgs/image-20210321215733205.png)
+![image-20210321215733205](https://github.com/holychen555/inventory/blob/main/imgs/image-20210321215733205.png)
 
-![image-20210321215809211](https://github.com/holychen555/inventory/tree/main/imgs/image-20210321215809211.png)
+![image-20210321215809211](https://github.com/holychen555/inventory/blob/main/imgs/image-20210321215809211.png)
