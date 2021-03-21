@@ -1,0 +1,30 @@
+{
+  "name": "admin-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.16",
+    "body-parser": "^1.19.0",
+    "boom": "^7.3.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "depd": "^2.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "express-validator": "^6.6.0",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "merge-descriptors": "^1.0.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "xml2js": "^0.4.23"
+  }
+}
