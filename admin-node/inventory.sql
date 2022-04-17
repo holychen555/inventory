@@ -62,7 +62,7 @@ CREATE TABLE `customer_info` (
   `owner` varchar(5)  NOT NULL COMMENT '负责人',
   `contactName` varchar(5) NOT NULL COMMENT '联系人',
   `contactPhone` char(11) NOT NULL COMMENT '联系人手机',
-  `recipientName` varchar(5) NOT NULL COMMENT '收件人姓名',
+  `recipientName` varchar(20) NOT NULL COMMENT '收件人姓名',
   `recipientPhone` char(11) NOT NULL COMMENT '收件人手机',
   `recipientAddress` varchar(40) NOT NULL COMMENT '收件人地址',
   `debt` decimal(20,2) NOT NULL DEFAULT 0 COMMENT '欠款',
@@ -152,7 +152,7 @@ CREATE TABLE `staff_info` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='用户信息表';
 
 INSERT INTO `staff_info` (`staffId`,`staffName`,`staffPermission`,`staffRole`,`staffPhone`,`staffAccount`,`staffPassword`,`createdDate`) VALUES 
-('YH000001','李海杰','sp_read,sp_edit,sp_del,kh_read,kh_edit,ck_read,ck_edit,ck_del,gys_read,gys_edit,gys_del,yh_edit,yh_read,yh_del','超级管理员','14502347841','admin','admin','2021-03-04 16:10:00'),
+('YH000001','李海杰','sp_read,sp_edit,sp_del,kh_read,kh_edit,ck_read,ck_edit,ck_del,gys_read,gys_edit,gys_del,yh_edit,yh_read,yh_del','超级管理员','14502347841','admin','91fe0e80d07390750d46ab6ed3a99316','2021-03-04 16:10:00'),
 ('YH000002','张述','sp_read,sp_edit,sp_del,kh_read,kh_edit,ck_read,ck_edit,ck_del,gys_read,gys_edit,gys_del,yh_edit,yh_read,yh_del','超级管理员','14502347841','role1','role1','2021-03-04 16:10:00'),
 ('YH000003','周强','sp_read,sp_edit,sp_del,kh_read,kh_edit,ck_read,ck_edit,ck_del,gys_read,gys_edit,gys_del,yh_edit,yh_read,yh_del','超级管理员','14502347841','role2','role2','2021-03-04 16:10:00'),
 ('YH000004','徐立','sp_read,sp_edit,sp_del,kh_read,kh_edit,ck_read,ck_edit,ck_del,gys_read,gys_edit,gys_del,yh_edit,yh_read,yh_del','超级管理员','14502347841','role3','role3','2021-03-04 16:10:00');

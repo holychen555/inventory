@@ -59,7 +59,7 @@ const actions = {
     //返回Promise对象
     return new Promise(resolve => {
       let accessedRoutes
-      if (roles.includes('admin')) {
+      if (roles.includes('超级管理员')) {
         //如果角色中包含admin,则直接跳过判断，直接将asyncRouter全部返回
         accessedRoutes = asyncRoutes || []
       } else {
